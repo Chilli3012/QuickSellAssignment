@@ -1,0 +1,36 @@
+.ticket-card {
+    background-color: whitesmoke;
+    border-radius: 10px; /* Adjust the border-radius to make edges more or less curved */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    font-size: 0.6rem;
+    margin-right: auto;
+    /* margin-left: auto; */
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: 230px; /* Adjust the width as per your design */
+    height: 120px; /* Adjust the height as per your design */
+    /* Add other styles as needed */
+  }
+
+.written{
+    text-align: left;
+    display: inline-block;
+    display: left;
+    /* justify-content: left; */
+}
+.card-content{
+    display: flex;
+    flex-direction: row;
+}
+.pic{
+    display: inline-block;
+    display: right;
+    text-align: right;
+    /* text-align: right; */
+}
+.profile{
+    display: inline-block;
+    display: right;
+    text-align: right;
+}
